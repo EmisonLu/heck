@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use crate::{transform, uppercase};
 
 /// This trait defines a shouty kebab case conversion.

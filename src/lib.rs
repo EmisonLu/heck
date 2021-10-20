@@ -37,6 +37,11 @@
 //! 7. SHOUTY-KEBAB-CASE
 #![deny(missing_docs)]
 
+#![no_std]
+use std::prelude::v1::*;
+#[macro_use]
+extern crate sgx_tstd as std;
+
 mod camel;
 mod kebab;
 mod mixed;

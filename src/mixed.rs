@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use crate::{capitalize, lowercase, transform};
 
 /// This trait defines a mixed case conversion.

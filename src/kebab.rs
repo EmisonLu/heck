@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use crate::{lowercase, transform};
 
 /// This trait defines a kebab case conversion.

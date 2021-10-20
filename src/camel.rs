@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use crate::{capitalize, transform};
 
 /// This trait defines a camel case conversion.
